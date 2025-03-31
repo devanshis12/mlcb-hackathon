@@ -4,11 +4,11 @@ Develop an accurate computational method to predict the functional impact of pro
 ## Input
 train.csv: mutants with associated DMS fitness score\
 test.csv: mutants\
-sequence.fasta: protein sequence, list of amino acids\
+sequence.fasta: protein sequence, list of amino acids
 
 ## Output
 predictions.csv: test mutants with associated predicted DMS fitness score\
-top10.txt: mutants with top 10 predicted DMS fitness score\
+top10.txt: mutants with top 10 predicted DMS fitness score
 
 ## Queries
 Run the query.ipynb file to get first and second query mutants.
