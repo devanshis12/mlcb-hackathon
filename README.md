@@ -53,3 +53,8 @@ Run all cells in this section to get the embeddings for the test set and get the
 ### 6. Visualizations
 Run all cells in this section to get visualizations for the ensemble model and the XGBoost model.
 
+## Findings
+The final model used for predictions is an Ensemble model that has three base models inluding: Random Forest regressor, with fine-tuned parameters, XGBoost regressor, with fine-tuned parameters, and a linear regressor. The meta model is a Ridge regressor for regularization. The following plots show the predictions from the individual base models and the stacked model predictions. 
+
+![Model Predictions vs Fitness][/plots/predsvsfit.png]\
+![Prediction Errors Across Models][/plots/errvsmod.png]
