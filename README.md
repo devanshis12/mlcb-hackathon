@@ -56,5 +56,5 @@ Run all cells in this section to get visualizations for the ensemble model and t
 ## Findings
 The final model used for predictions is an Ensemble model that has three base models inluding: Random Forest regressor, with fine-tuned parameters, XGBoost regressor, with fine-tuned parameters, and a linear regressor. The meta model is a Ridge regressor for regularization. The following plots show the predictions from the individual base models and the stacked model predictions. 
 
-![Model Predictions vs Fitness][/plots/predsvsfit.png]\
+![Image](https://github.com/user-attachments/assets/301faa1e-02c6-4347-8d12-b87d828748d3)
 ![Prediction Errors Across Models][/plots/errvsmod.png]
